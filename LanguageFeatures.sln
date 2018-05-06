@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2043
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures.csproj", "{8CD87337-64DE-4A3D-A40E-C9A6765A22A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LanguageFeatures", "LanguageFeatures\LanguageFeatures.csproj", "{8CD87337-64DE-4A3D-A40E-C9A6765A22A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj", "{97E4E6A8-6EDD-4FAB-A835-9FAA1B76028C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrabalhandoComVisualStudios", "TrabalhandoComVisualStudios\TrabalhandoComVisualStudios.csproj", "{A6F40D58-D99B-4F0F-B64B-0132F7BF4259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{8CD87337-64DE-4A3D-A40E-C9A6765A22A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD87337-64DE-4A3D-A40E-C9A6765A22A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD87337-64DE-4A3D-A40E-C9A6765A22A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E4E6A8-6EDD-4FAB-A835-9FAA1B76028C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E4E6A8-6EDD-4FAB-A835-9FAA1B76028C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E4E6A8-6EDD-4FAB-A835-9FAA1B76028C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E4E6A8-6EDD-4FAB-A835-9FAA1B76028C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F40D58-D99B-4F0F-B64B-0132F7BF4259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F40D58-D99B-4F0F-B64B-0132F7BF4259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F40D58-D99B-4F0F-B64B-0132F7BF4259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F40D58-D99B-4F0F-B64B-0132F7BF4259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

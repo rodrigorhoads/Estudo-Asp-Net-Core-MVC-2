@@ -1,0 +1,11 @@
+﻿@model Produto
+
+@{
+    ViewData["Title"] = "meuProduto";
+}
+
+<h2>meuProduto</h2>
+
+
+<p>Nome do Produto : @Model.Nome</p>
+<p>Preço do Produto : @($"{Model.Preco:C2}")</p>
