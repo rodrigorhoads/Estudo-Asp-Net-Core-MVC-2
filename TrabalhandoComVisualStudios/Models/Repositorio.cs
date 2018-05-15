@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace TrabalhandoComVisualStudios.Models
 {
-    public class Repositorio
+    public class Repositorio:IRepository
     {
         private static Repositorio repositorioCompartilhado = new Repositorio();
         private Dictionary<string, Produto> produtos = new Dictionary<string, Produto>();

@@ -10,26 +10,18 @@ namespace TrabalhandoComVisualStudios.Controllers
 {
     public class HomeController : Controller
     {
-        public IActionResult Index() 
-            => View(Repositorio.RepositorioCompartilhado.Produtos.Where(p=>p?.Preco<50));
+        public IRepository Repository = Repositorio.RepositorioCompartilhado;
 
-        public IActionResult About()
+       public IActionResult Index()=> View(Repository.Produtos);
+
+        [HttpGet]
+        public IActionResult AddProdutos() => View(new Produto());
+
+        [HttpPost]
+        public IActionResult AddProdutos(Produto produto)
         {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            Repository.AddProdutos(produto);
+            return RedirectToAction("Index");
         }
     }
 }
